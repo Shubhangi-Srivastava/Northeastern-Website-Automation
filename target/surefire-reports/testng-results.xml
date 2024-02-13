@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<img width='400' height='240' src = 'C:\Users\Yurya\Downloads\Data/login.png'/><br/>]]>
+    </line>
+    <line>
+      <![CDATA[testLoginNE: ]]>
+    </line>
+    <line>
+      <![CDATA[Expected: https://bnrordsp.neu.edu/ssb-prod/bwskotrn.P_ViewTran]]>
+    </line>
+    <line>
+      <![CDATA[Actual: https://bnrordsp.neu.edu/ssb-prod/bwskotrn.P_ViewTran]]>
+    </line>
+    <line>
+      <![CDATA[Fail/Pass: ]]>
+    </line>
+    <line>
+      <![CDATA[Pass]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-11-16T11:53:53 EST" name="Surefire suite" finished-at="2023-11-16T11:59:41 EST" duration-ms="348109">
+    <groups>
+    </groups>
+    <test started-at="2023-11-16T11:53:53 EST" name="Surefire test" finished-at="2023-11-16T11:59:41 EST" duration-ms="348109">
+      <class name="example.NewTest">
+        <test-method is-config="true" signature="loadProperties()[pri:0, instance:example.NewTest@11fc564b]" started-at="2023-11-16T11:53:53 EST" name="loadProperties" finished-at="2023-11-16T11:53:53 EST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method signature="testLoginNE()[pri:1, instance:example.NewTest@11fc564b]" started-at="2023-11-16T11:53:53 EST" name="testLoginNE" finished-at="2023-11-16T11:55:47 EST" duration-ms="113742" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img width='400' height='240' src = 'C:\Users\Yurya\Downloads\Data/login.png'/><br/>]]>
+            </line>
+            <line>
+              <![CDATA[testLoginNE: ]]>
+            </line>
+            <line>
+              <![CDATA[Expected: https://bnrordsp.neu.edu/ssb-prod/bwskotrn.P_ViewTran]]>
+            </line>
+            <line>
+              <![CDATA[Actual: https://bnrordsp.neu.edu/ssb-prod/bwskotrn.P_ViewTran]]>
+            </line>
+            <line>
+              <![CDATA[Fail/Pass: ]]>
+            </line>
+            <line>
+              <![CDATA[Pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testLoginNE -->
+        <test-method signature="test2()[pri:2, instance:example.NewTest@11fc564b]" started-at="2023-11-16T11:55:47 EST" name="test2" finished-at="2023-11-16T11:57:47 EST" duration-ms="120193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:3, instance:example.NewTest@11fc564b]" started-at="2023-11-16T11:57:47 EST" name="test3" finished-at="2023-11-16T11:57:56 EST" duration-ms="9146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:4, instance:example.NewTest@11fc564b]" started-at="2023-11-16T11:57:56 EST" name="test4" finished-at="2023-11-16T11:58:30 EST" duration-ms="33730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:5, instance:example.NewTest@11fc564b]" started-at="2023-11-16T11:58:30 EST" name="test5" finished-at="2023-11-16T11:59:41 EST" duration-ms="71182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+      </class> <!-- example.NewTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
